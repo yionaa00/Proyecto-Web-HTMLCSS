@@ -1,0 +1,96 @@
+.b0dy{
+    color: white;
+    background-color: rgba(240, 248, 255, 0.281);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 0 0 40px rgb(8, 7, 16);
+}
+
+
+
+.button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(206, 0, 120);
+    transition: 0.75s;
+    display: inline-block;
+    border-radius: 5px;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: none;
+}
+
+.head {
+    color: white;
+    background-color: #ffffff4b;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 40px rgb(8, 7, 16);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.rut{
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+
+label{
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input{
+    display: block;
+    height: 50px;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+p{
+    color: white;
+    margin-left: 40px;
+    margin-top: auto;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size:medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 40px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.align-top {
+    vertical-align:middle !important;
+}
+
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9a/ca/08/cabana-del-lago-hotel.jpg?w=700&h=-1&s=1");
+    background-size:cover;
+}
+
+a{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+img{
+    border-radius: 10px;
+}
+

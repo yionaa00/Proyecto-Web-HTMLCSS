@@ -1,0 +1,139 @@
+form{
+    height: 520px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.616);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 0, 0, 0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+
+    
+}
+
+form *{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+
+form h1{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li{
+    display: inline;
+}
+
+li a {  
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+    transition: 0.75s;
+}
+
+ul a:hover {
+    background-color: #ffffff00;
+    color: rgb(255, 25, 113);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -80px;
+    top: -80px;
+}
+
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #69004f,
+        #b900b0
+    );
+    right: -30px;
+    bottom: -80px;
+    
+}
+
+body{
+    background-color: #f09819;
+}
+
+h3{
+    text-align: center;
+    margin-top: -10px;
+    text-shadow: 2px 2px 5px rgb(255, 25, 113);
+}
+
+h2{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(255, 25, 113);
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(255, 25, 113);
+}
+
+p a:hover{
+    background-color: #1845ad00;
+    color: rgb(255, 25, 113);
+    transition: 0.5ms;
+}
+
+.bordes-transparentes{
+    text-align:left; 	
+    background:#ffffff4f;
+    border: 3px solid rgba(80, 0, 0, 0.5);
+    padding:0px 10px 0 10px;
+    border-radius: 1px;    
+    left:10%;
+    width:auto;
+}
+
+h5{
+    font-size: 15px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-top: 3px;
+}

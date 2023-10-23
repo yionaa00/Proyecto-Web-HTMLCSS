@@ -1,0 +1,90 @@
+h1 {
+    font-size: 50px;
+    color:rgb(255, 179, 39);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 5px bisque;
+}
+
+
+body{
+    background-color: teal;
+}
+
+p{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: bisque;
+    text-align: center;
+    text-shadow: 2px 2px 5px bisque;
+    margin-top: -35px;
+    margin-bottom: 50px;
+
+}
+
+li{
+    display: inline;
+}
+
+li a {  
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+    transition: 0.75s;
+  }
+  
+
+ul a:hover {
+    background-color: #dddddd00;
+    color: rgb(255, 25, 113);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+form{
+    height: 520px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.616);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(0, 0, 0, 0.349);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+
+form *{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+
+form h1{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+    margin-top: -10px;
+}
